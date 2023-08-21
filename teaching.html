@@ -136,6 +136,36 @@ footer {
     color: #FAFAFA;
 }
 
+/* Enhancing the navigation for smaller screens */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack the links vertically */
+    }
+    nav a {
+        margin-bottom: 10px;
+    }
+}
+
+/* Adjustments for homepage content on smaller screens */
+@media only screen and (max-width: 768px) {
+    .homepage-content {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .portrait {
+        max-width: 100%; /* Allow image to be full width */
+        margin-bottom: 20px; /* Add space between image and text */
+    }
+    .intro-text {
+        text-align: center; /* Center the text on small screens */
+    }
+}
+
+/* Make sure your image scales responsively */
+.portrait img {
+    width: 100%;
+    height: auto;
+}
+
 
     </style>
 </head>
@@ -157,45 +187,47 @@ footer {
     
     
         <main>
-            <section>
+            <main>
+                <h2>Current Teaching</h2>
+                <div class="career-box">
+                    <h3>Bryn Mawr College</h3>
+                    <ul>
+                        <li>Fall 2023, Graduate Algebra 1</li>
+                    </ul>
+                </div>
+            
                 <h2>Past Teaching</h2>
-    
-                <h3>University of Utah (2021-2022)</h3>
-                <ul>
-                    <li>Calculus 3 and College Algebra</li>
-                    <li>Topics in History of Mathematics</li>
-                </ul>
-                <p>We followed the book Ethnomathematics by Marcia Ascher for the first half of the History of Math class. I am grateful to Dr. Allechar Serrano López for sharing her Spring 2021 course content with me!</p>
-    
-                <h3>University of South Alabama (2017-2021)</h3>
-                <ul>
-                    <li>(Graduate) Linear Algebra sequence</li>
-                    <li>Abstract Algebra</li>
-                    <li>Linear Algebra (in team-based learning and standards based grading)</li>
-                    <li>Calculus I, II and III</li>
-                </ul>
-            </section>
-    
-            <div class="career-box">
-                <h3>I support and believe in Federico Ardila's Axioms.</h3>
-                <ol>
-                    <li>Mathematical talent is distributed equally among different groups, irrespective of geographic, demographic, and economic boundaries.</li>
-                    <li>Everyone can have joyful, meaningful, and empowering mathematical experiences.</li>
-                    <li>Mathematics is a powerful, malleable tool that can be shaped and used differently by communities to serve their needs.</li>
-                    <li>Every student deserves to be treated with dignity and respect.</li>
-                </ol>
-            </div>
-
-     <!---      <section>
+            
+                <div class="career-box">
+                    <h3>University of Utah (2021-2022)</h3>
+                    <ul>
+                        <li>Calculus 3 and College Algebra</li>
+                        <li>Topics in History of Mathematics</li>
+                    </ul>
+                    <p>We followed the book Ethnomathematics by Marcia Ascher for the first half of the History of Math class. I am grateful to Dr. Allechar Serrano López for sharing her Spring 2021 course content with me!</p>
+                </div>
+            
+                <div class="career-box">
+                    <h3>University of South Alabama (2017-2021)</h3>
+                    <ul>
+                        <li>(Graduate) Linear Algebra sequence</li>
+                        <li>Abstract Algebra</li>
+                        <li>Linear Algebra (in team-based learning and standards based grading)</li>
+                        <li>Calculus I, II, and III</li>
+                    </ul>
+                </div>
                 
-                <h2>I support and believe in Federico Ardila's Axioms</h2>
-                <ol>
-                    <li>Mathematical talent is distributed equally among different groups, irrespective of geographic, demographic, and economic boundaries.</li>
-                    <li>Everyone can have joyful, meaningful, and empowering mathematical experiences.</li>
-                    <li>Mathematics is a powerful, malleable tool that can be shaped and used differently by communities to serve their needs.</li>
-                    <li>Every student deserves to be treated with dignity and respect.</li>
-                </ol>
-            </section>-->
+                <div class="career-box">
+                    <h3>I support and believe in Federico Ardila's Axioms.</h3>
+                    <ol>
+                        <li>Mathematical talent is distributed equally among different groups, irrespective of geographic, demographic, and economic boundaries.</li>
+                        <li>Everyone can have joyful, meaningful, and empowering mathematical experiences.</li>
+                        <li>Mathematics is a powerful, malleable tool that can be shaped and used differently by communities to serve their needs.</li>
+                        <li>Every student deserves to be treated with dignity and respect.</li>
+                    </ol>
+                </div>
+            </main>
+            
         </main>
     
     

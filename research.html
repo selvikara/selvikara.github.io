@@ -123,6 +123,37 @@ footer {
 }
 
 
+
+/* Enhancing the navigation for smaller screens */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack the links vertically */
+    }
+    nav a {
+        margin-bottom: 10px;
+    }
+}
+
+/* Adjustments for homepage content on smaller screens */
+@media only screen and (max-width: 768px) {
+    .homepage-content {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .portrait {
+        max-width: 100%; /* Allow image to be full width */
+        margin-bottom: 20px; /* Add space between image and text */
+    }
+    .intro-text {
+        text-align: center; /* Center the text on small screens */
+    }
+}
+
+/* Make sure your image scales responsively */
+.portrait img {
+    width: 100%;
+    height: auto;
+}
+
     </style>
 </head>
 

@@ -136,6 +136,37 @@ footer {
 }
 
 
+
+/* Enhancing the navigation for smaller screens */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack the links vertically */
+    }
+    nav a {
+        margin-bottom: 10px;
+    }
+}
+
+/* Adjustments for homepage content on smaller screens */
+@media only screen and (max-width: 768px) {
+    .homepage-content {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .portrait {
+        max-width: 100%; /* Allow image to be full width */
+        margin-bottom: 20px; /* Add space between image and text */
+    }
+    .intro-text {
+        text-align: center; /* Center the text on small screens */
+    }
+}
+
+/* Make sure your image scales responsively */
+.portrait img {
+    width: 100%;
+    height: auto;
+}
+
     </style>
 </head>
 
@@ -158,7 +189,7 @@ footer {
         <main>
 
             <div class="career-box">
-                <h3>Mentoring Philosophy</h3>
+                <h3 style=" text-align: center;"> Mentoring Philosophy</h3>
                 <p style=" text-align: justify;"> As a first generation person, I heavily relied on the guidance and mentoring of several good people in my academic journey. I wouldn't be where I am today without my mentors and I am forever grateful to them (this sounds cliche but it is true!).
 </p>
 <p style=" text-align: justify;"> My mentoring philosophy is centered around forming meaningful relationships with my students and creating a community. Whether I am your instructor, research mentor, or someone you happen to get connected with, I can be your mentor and I would be there to support you regardless of the nature of your situation. My actions as a mentor are based on my mentees unique situations, backgrounds, and needs. Instead of giving you unsolicited advice, I will first listen to you about your goals, your needs, and your situation. Then, I will provide my thoughts and suggestions based on my experiences while recognizing our experiences and our perception might differ due to our backgrounds. I will actively look for opportunities for you to grow in the direction you want to go towards and work with you to apply for these opportunities. Even after our paths diverge, I will still check in, ask how the next part of your journey is going, and how I can support you.
