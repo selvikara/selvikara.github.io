@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selvi Kara | Personal Academic Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA; /* Soft off-white */
+}
+/* Header */
+header {
+    background: linear-gradient(45deg, #669999, #996699); /* Gradient from teal to purple */
+    color: #FAFAFA;
+    padding: 30px 0;
+    text-align: center;
+    position: relative; 
+    overflow: hidden;
+    transition: background 0.5s ease;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(circle, rgba(255, 255, 255, 0.2) 1%, transparent 5%),
+        radial-gradient(circle, rgba(255, 255, 255, 0.15) 2%, transparent 6%),
+        radial-gradient(circle, rgba(255, 255, 255, 0.1) 3%, transparent 7%);
+    background-size: 100px 100px, 150px 150px, 75px 75px;
+    background-position: 0 0, 50px 50px, 30px 30px;
+    z-index: -1;
+    transition: background-image 0.5s ease;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    transition: color 0.5s ease;
+}
+
+
+
+
+header:hover {
+    transform: scale(1.05);
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #669999; /* Teal */
+    padding: 10px 0;
+}
+
+nav a {
+    color: #FAFAFA;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #996699; /* Purple */
+    border-radius: 5px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #E6E6E6; /* Lighter than the soft off-white for contrast */
+    border-radius: 10px;
+}
+/* Main Content */
+.homepage-content {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px 0;
+    flex-direction: row-reverse; /* Reverse the order */
+}
+
+.portrait {
+    flex: 1;
+    max-width: 45%;
+    margin-left: 5%; /* Adjusted for spacing on the left side now */
+    border-radius: 10px; 
+}
+
+.intro-text {
+    flex: 2;
+    max-width: 50%;
+}
+
+
+h2 {
+    margin-top: 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #669999; /* Teal */
+    color: #FAFAFA;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dr. Selvi Kara</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="research.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="mentoring.html">Mentoring</a>
+        <a href="community.html">Community</a>
+        <!-- Add other links similarly -->
+    </nav>
+
+    
+        <main>
+            <section>
+                <h2>Book Contributions</h2>
+                <p>A Conversation on Meet a Mathematician and Math For All, with Padi Fuster in Practices and Policies: Advocating For Students of Color in Mathematics, Pamela E. Harris and Aris Winger. CreateSpace 2021.</p>
+            </section>
+    
+            <section>
+                <h2>Published Research</h2>
+                <ul>
+                    <li><strong>Multi-Rees algebras of strongly stable ideals</strong>, with Kuei-Nuan Lin and Gabriel Sosa
+                        <br>to appear in Collectanea Mathematica (2022)
+                        <br><a href="https://arxiv.org/pdf/2012.15447.pdf">arXiv version</a> <a href="https://link.springer.com/article/10.1007/s13348-022-00385-2">journal version (coming soon!)</a></li>
+                    <li><strong>Rigid Gorenstein toric Fano varieties arising from directed graphs</strong>, with Irem Portakal and Akiyoshi Tsuchiya
+                            <br>Collectanea Mathematica (2022)
+                            <br><a href="https://arxiv.org/pdf/2103.06404.pdf">arXiv version</a> <a href="https://link.springer.com/article/10.1007/s13348-022-00350-z">journal version</a></li>
+                    <li><strong>Toric Ideals of Weighted Oriented Graphs</strong>, with Jennifer Biermann, Kuei-Nuan Lin, Augustine O’Keefe
+                                <br> International Journal of Algebra and Computation, Vol. 32, No. 02, pp. 307-325 (2022)
+                                <br><a href="https://arxiv.org/pdf/2107.04524.pdf">arXiv version</a> <a href="https://www.worldscientific.com/doi/10.1142/S0218196722500151">journal version</a></li>
+                    <li><strong>Algebraic invariants of weighted oriented graphs</strong>, with Jennifer Biermann, Kuei-Nuan Lin, Augustine O’Keefe
+                                    <br> Journal of Algebraic Combinatorics,  55, pages 461–491 (2022)
+                                    <br><a href="https://arxiv.org/pdf/1910.11773.pdf">arXiv version</a> <a href="https://link.springer.com/article/10.1007/s10801-021-01058-2">journal version</a></li>
+                    <li> <strong>Betti numbers of weighted oriented graphs</strong>, with *Beata Casiday
+                        <br> The Electronic Journal of Combinatorics 28(2) (2021), #P2.33 
+                                        
+                                        <br><a href="https://arxiv.org/abs/2009.10903">arXiv version</a> <a href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/v28i2p33/pdf">journal version</a></li>
+                    <li> <strong>Regularity of powers of edge ideals: from local properties to global bounds</strong>, with Arindam Banerjee and Tài Huy Hà
+                        <br> Algebraic Combinatorics, volume 3, no. 4 (2020), 839-854	
+                                            <br><a href="https://arxiv.org/pdf/1805.01434.pdf">arXiv version</a> <a href="https://alco.centre-mersenne.org/article/ALCO_2020__3_4_839_0.pdf">journal version</a></li>
+                    <li><strong>Regularity of edge ideals and their powers</strong>, with Arindam Banerjee and Tài Huy Hà
+                        <br>Advances in Algebra. SRAC 2017. Springer Proceedings in Mathematics and Statistics, vol 277. Springer, Cham	
+                                                <br><a href="https://arxiv.org/abs/1712.00887">arXiv version</a> <a href="https://link.springer.com/chapter/10.1007/978-3-030-11521-0_2">proceedings version</a></li>
+                    <li><strong>Algebraic properties of toric rings of graphs</strong>, with Tài Huy Hà, and Augustine O’Keefe
+                        <br> Communications in Algebra, 47:1 (2019), 1-16
+                                                    <br><a href="#">arXiv version</a> <a href="#">journal version</a></li>
+                    <li> <strong>Regularity of powers of unicyclic graphs</strong>, with Ali Alilooee and Selvaraja S
+                                                        <br>Rocky Mountain Journal of Mathematics, volume 49, no. 3 (2019), 699-728	
+                                                        <br><a href="https://arxiv.org/abs/1702.00916">arXiv version</a> <a href="https://projecteuclid.org/journals/rocky-mountain-journal-of-mathematics/volume-49/issue-3/Regularity-of-powers-of-edge-ideals-of-unicyclic-graphs/10.1216/RMJ-2019-49-3-699.short">journal version</a></li>
+                    <li><strong>Regularity of powers of forests and cycles</strong>, with Tài Huy Hà and Trân Nam Trung
+                        <br>Journal of Algebraic Combinatorics, 42 (4) (2015), 1077–1095
+                        <br><a href="https://arxiv.org/abs/1409.0277">arXiv version</a> <a href="https://link.springer.com/article/10.1007/s10801-015-0617-y">journal version</a></li>
+                </ul>
+            </section>
+    
+            <section>
+                <h2>Submitted</h2>
+                <ul>
+                    <li><strong>MorseResolutions M2 Package</strong>, with Trung Chau and Augustine O'Keefe
+                        <br><a href="https://arxiv.org/pdf/2307.03633.pdf">Submitted - arXiv version</a></li>
+                     <li><strong>A three regimes theorem for flow-firing</strong>, with Sarah Brauner, Galen Dorpalen-Barry, Caroline Klivans, and Lisa Schneider
+                            <br><a href="https://arxiv.org/pdf/2303.02526.pdf">Submitted - arXiv version</a></li>
+                    <li><strong>Barile-Macchia resolutions</strong>, with Trung Chau
+                             <br><a href="https://arxiv.org/pdf/2211.04640.pdf">Submitted - arXiv version</a></li>
+                    <li><strong>On algebraic and combinatorial properties of weighted simplicial complexes</strong>
+                        <br><a href="https://arxiv.org/abs/2005.11590">Submitted - arXiv version</a></li>
+                </ul>
+            </section>
+    
+            <section>
+                <h2>In progress</h2>
+                <ul>
+                    <li><strong>Barile-Macchia resolutions of path ideals of paths and cycles</strong>, with Trung Chau, and Kyle Wang</li>
+                </ul>
+            </section>
+        </main>
+ 
+<footer>
+    <p>Contact: skara at brynmawr dot edu or selvikara at gmail dot com</p>
+</footer>
